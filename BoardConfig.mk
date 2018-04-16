@@ -155,8 +155,9 @@ BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := true
 USE_DEVICE_SPECIFIC_GPS := true
 
 # Hidl manifests
-DEVICE_MANIFEST_FILE := device/zuk/z2_plus/manifest.xml
-DEVICE_MATRIX_FILE := device/zuk/z2_plus/compatibility_matrix.xml
+DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
+DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/vendor_framework_compatibility_matrix.xml
 
 # Keystore
 TARGET_PROVIDES_KEYMASTER := true
