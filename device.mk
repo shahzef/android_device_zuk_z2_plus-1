@@ -272,6 +272,10 @@ PRODUCT_PACKAGES += \
     libOmxVdecHevc \
     libstagefrighthw
 
+# Power
+PRODUCT_PACKAGES += \
+    power.msm8996
+
 # VR
 PRODUCT_PACKAGES += \
     vr.msm8996
