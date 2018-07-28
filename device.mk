@@ -66,12 +66,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
-# HWUI overrides
-$(call inherit-product, vendor/omni/config/phone-xxxhdpi-3072-hwui-memory.mk)
-
-# Dalvik overrides
-$(call inherit-product, vendor/omni/config/phone-xxxhdpi-3072-dalvik-heap.mk)
-
 # Haters gonna hate..
 PRODUCT_CHARACTERISTICS := nosdcard
 
