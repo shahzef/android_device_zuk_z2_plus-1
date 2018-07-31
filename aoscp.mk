@@ -47,3 +47,11 @@ BUILD_FINGERPRINT="ZUK/z2_plus/z2_plus:7.0/NRD90M/2.5.412_170428:user/release-ke
 PRODUCT_BUILD_PROP_OVERRIDES += \
 DEVICE_MAINTAINERS="Shahzeb"
 
+# Telephony packages
+PRODUCT_PACKAGES += \
+    telephony-ext
+
+PRODUCT_BOOT_JARS += \
+telephony-ext
+
+export AOSCP_BUILDTYPE=UNOFFICIAL_BY_SHAHZEB
