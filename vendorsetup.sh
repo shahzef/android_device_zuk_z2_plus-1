@@ -1,0 +1,4 @@
+add_lunch_combo z2_plus-userdebug
+add_lunch_combo z2_plus-eng
+add_brunch_combo z2_plus-userdebug
+add_brunch_combo z2_plus-eng
