@@ -20,10 +20,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from z2_plus device
 $(call inherit-product, device/zuk/z2_plus/device.mk)
 
-# Inherit some common Validus stuff.
-$(call inherit-product, vendor/aoscp/configs/common_full_phone.mk)
+# Inherit some common Liquid stuff.
+$(call inherit-product, vendor/liquid/config/common_full_phone.mk)
 
-PRODUCT_NAME := aoscp_z2_plus
+PRODUCT_NAME := liquid_z2_plus
 PRODUCT_DEVICE := z2_plus
 PRODUCT_MANUFACTURER := ZUK
 PRODUCT_BRAND := ZUK
@@ -54,4 +54,4 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
 telephony-ext
 
-export AOSCP_BUILDTYPE=RELEASE
+export LIQUID_BUILDTYPE=RELEASE
