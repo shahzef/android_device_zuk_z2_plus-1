@@ -45,4 +45,4 @@ BUILD_FINGERPRINT="ZUK/z2_plus/z2_plus:7.0/NRD90M/2.5.412_170428:user/release-ke
 
 # Maintainer info
 PRODUCT_BUILD_PROP_OVERRIDES += \
-DEVICE_MAINTAINERS="Shahzeb"
+DEVICE_MAINTAINERS="Shahzeb-Unofficial"

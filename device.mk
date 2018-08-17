@@ -232,7 +232,7 @@ PRODUCT_PACKAGES += \
 
 #Power
 PRODUCT_PACKAGES += \
-     power.qcom
+     power.msm8996
 
 # Thermal
 PRODUCT_COPY_FILES += \
