@@ -20,10 +20,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # Inherit from z2_plus device
 $(call inherit-product, device/zuk/z2_plus/device.mk)
 
-# Inherit some common Nitrogen stuff.
-$(call inherit-product, vendor/nitrogen/products/common.mk)
+# Inherit some common Blidd stuff.
+$(call inherit-product, vendor/bliss/config/common.mk)
 
-PRODUCT_NAME := nitrogen_z2_plus
+PRODUCT_NAME := bliss_z2_plus
 PRODUCT_DEVICE := z2_plus
 PRODUCT_MANUFACTURER := ZUK
 PRODUCT_BRAND := ZUK
