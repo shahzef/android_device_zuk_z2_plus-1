@@ -32,8 +32,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    android.hardware.camera.provider@2.4-impl \
-    android.hardware.camera.provider@2.4-service.zuk_z2
+    android.hardware.camera.provider@2.4-impl
 
 #Display
 PRODUCT_PACKAGES += \
