@@ -71,10 +71,8 @@ TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
 # HWUI overrides
-$(call inherit-product, vendor/nitrogen/config/phone-xxxhdpi-3072-hwui-memory.mk)
 
 # Dalvik overrides
-$(call inherit-product, vendor/nitrogen/config/phone-xxxhdpi-3072-dalvik-heap.mk)
 
 # facelock properties
 PRODUCT_PROPERTY_OVERRIDES += \
