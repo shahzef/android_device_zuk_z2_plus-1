@@ -34,5 +34,8 @@
     <!-- Doze: should notifications be used as a pulse signal? -->
     <bool name="doze_pulse_on_notifications">false</bool>
 
+    <!-- Whether to show VoLTE icon in the status bar? Credit:Adarsh1998 -->
+    <bool name="config_display_volte">true</bool>
+
 </resources>
 
